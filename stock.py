@@ -26,7 +26,7 @@ def stock_graph(stock_name):
         s2.insert(0,price[1])
 
     df = pd.DataFrame({'date':s1,'price':s2})
-    print(df)
+    #print(df)
 
     graph_title = "2017-03-01 ~ 2018-03-01 Stock Price of " + stock_name
 
